@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Procurar em uma Api</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/> 
+	<body>
+        <div class="container border border primary" align:center>
+            <div class="row border border primary"align:center>
+                <div class="col"align:center>
+                    <div>
+                    <h1>Oi! Ben-vindo!</h1>
+                        <h2> Quere Consultar um CEP?</h2>
+                    </div>
+		            <div>
+                    <form>
+                        <h3>Verifique o CEP</h3>
+                        <br>
+                        CEP: <input type="text" id="cep">
+                        <input type="button" value="Buscar" onclick="buscarCep()">
+                        <input type="reset"  value="Limpar">
+                        <input type="button" value="Sair" onclick="enviaYcerrar()"><br><br>
+                        <input  id="logradouro" type="text" disabled> Logradouro<br><br>
+                        <input  id="complemento" type="text" disabled> Complemento<br><br>
+                        <input  id="bairro" type="text" disabled> Bairro<br><br>
+                        <input  id="localidade" type="text" disabled> Localidade<br><br>
+                        <input  id="uf" type="text" disabled> Uf<br><br>
+                    </form>
+                    </div>                        
+                </div>
+            </div>
+        </div>
+        <script src="javaScript.js"> </script> 
+    </body>
+</html>
